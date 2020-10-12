@@ -1,17 +1,17 @@
 .invite {
   margin-bottom: 0.83rem;
   border-bottom: 0.8px solid $dark-grayish;
-  // padding-bottom: 1.2rem;
+  margin-bottom: 1.2rem;
 
   &-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
-    // font-weight: 700;
+    // font-weight: 700
   }
 
   &-toShow {
-    // display: none;
+    margin-bottom: 1rem;
   }
 }
