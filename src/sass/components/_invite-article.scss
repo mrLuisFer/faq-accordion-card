@@ -9,9 +9,15 @@
     align-items: center;
     margin-bottom: 1rem;
     // font-weight: 700
+
+    &-icon {
+      transition: all 0.2s ease;
+    }
   }
 
   &-toShow {
     margin-bottom: 1rem;
+    line-height: 1.45rem;
+    color: $grayish-blue;
   }
 }

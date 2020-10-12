@@ -1,8 +1,9 @@
 const iconDown = document.querySelector("#invite-icon-down");
 const invite_toShow = document.querySelector("#invite-toShow");
 const invite_title = document.querySelector("#invite-title");
+const invite_container = document.querySelector("#invite-container");
 
-iconDown.addEventListener("click", () => {
+invite_container.addEventListener("click", () => {
   console.log("works for the moment");
 
   invite_toShow.classList.toggle("hidde");
