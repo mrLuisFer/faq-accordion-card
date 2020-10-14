@@ -50,16 +50,18 @@
           </article>
           <!-- Separation -->
           <article class="maximum">
-            <div class="maximum-text">
-              <p class="maximum-text-title">
+            <div class="maximum-text" id="maximum-container">
+              <p class="maximum-text-title" id="maximum-title">
                 What is the maximum file upload size?
               </p>
               <img
                 src="./src/images/icon-arrow-down.svg"
                 alt="icon-arrow-down"
+                class="maximum-text-icon"
+                id="maximum-icon-down"
               />
             </div>
-            <p class="maximum-toShow">
+            <p class="maximum-toShow hidde" id="maximum-toShow">
               No more than 2GB. All files in your account must fit your allotted
               storage space.
             </p>
@@ -114,5 +116,6 @@
     <!-- Javascript Section -->
     <script type="module" src="./src/js/toShowFunction.js"></script>
     <script type="module" src="./src/js/invite.js"></script>
+    <script type="module" src="./src/js/maximum.js"></script>
   </body>
 </html>
