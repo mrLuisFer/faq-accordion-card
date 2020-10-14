@@ -13,6 +13,16 @@ export default function handleToShow(container, toShow, elemTitle, iconDown) {
         "animate__slideInDown",
         "animate__faster"
       );
+
+      window.addEventListener("click", (event) => {
+        console.log(event.target);
+
+        if (event.target != container) {
+          toShow.classList.add("hidde");
+          elemTitle.style.fontWeight = "400";
+          iconDown.style.transform = "rotate(360deg)";
+        }
+      });
     }
   });
 }

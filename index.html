@@ -68,44 +68,54 @@
           </article>
           <!-- Separation -->
           <article class="reset">
-            <div class="reset-text">
-              <p class="reset-text-title">How do I reset my password?</p>
+            <div class="reset-text" id="reset-container">
+              <p class="reset-text-title" id="reset-title">
+                How do I reset my password?
+              </p>
               <img
                 src="./src/images/icon-arrow-down.svg"
                 alt="icon-arrow-down"
+                class="reset-text-icon"
+                id="reset-icon-down"
               />
             </div>
-            <p class="reset-toShow">
+            <p class="reset-toShow hidde" id="reset-toShow">
               Click “Forgot password” from the login page or “Change password”
               from your profile page. A reset link will be emailed to you.
             </p>
           </article>
           <!-- Separation -->
           <article class="cancel">
-            <div class="cancel-text">
-              <p class="cancel-text-title">Can I cancel my subscription?</p>
+            <div class="cancel-text" id="cancel-container">
+              <p class="cancel-text-title" id="cancel-title">
+                Can I cancel my subscription?
+              </p>
               <img
                 src="./src/images/icon-arrow-down.svg"
                 alt="icon-arrow-down"
+                class="cancel-text-icon"
+                id="cancel-icon-down"
               />
             </div>
-            <p class="cancel-toShow">
+            <p class="cancel-toShow hidde" id="cancel-toShow">
               Yes! Send us a message and we’ll process your request no questions
               asked.
             </p>
           </article>
           <!-- Separation -->
           <article class="provide">
-            <div class="provide-text">
-              <p class="provide-text-title">
+            <div class="provide-text" id="provide-container">
+              <p class="provide-text-title" id="provide-title">
                 Do you provide additional support?
               </p>
               <img
                 src="./src/images/icon-arrow-down.svg"
                 alt="icon-arrow-down"
+                class="provide-text-icon"
+                id="provide-icon-down"
               />
             </div>
-            <p class="provide-reset">
+            <p class="provide-toShow hidde" id="provide-toShow">
               Chat and email support is available 24/7. Phone lines are open
               during normal business hours.
             </p>
@@ -115,7 +125,6 @@
     </div>
     <!-- Javascript Section -->
     <script type="module" src="./src/js/toShowFunction.js"></script>
-    <script type="module" src="./src/js/invite.js"></script>
-    <script type="module" src="./src/js/maximum.js"></script>
+    <script type="module" src="./src/js/components.js"></script>
   </body>
 </html>
