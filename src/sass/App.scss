@@ -20,5 +20,9 @@ body {
   color: $dark-des-blue;
 }
 
+// Mixins
+@import "./mixins/mixins";
+// Components
 @import "./components/main";
 @import "./components/invite-article";
+@import "./components/maximum";

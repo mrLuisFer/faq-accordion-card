@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-  background: $light-grayish;
+  background: #fff;
   border-radius: 1.6rem;
   padding: 8rem 1.6rem;
 
@@ -18,4 +18,5 @@
 
 .hidde {
   display: none;
+  transition: all 0.5s ease-in;
 }

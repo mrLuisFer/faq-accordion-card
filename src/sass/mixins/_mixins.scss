@@ -1,0 +1,28 @@
+@mixin TextMenu {
+  margin-bottom: 0.83rem;
+  border-bottom: 0.8px solid $dark-grayish;
+  margin-bottom: 1.2rem;
+  display: block;
+  position: relative;
+  z-index: 10;
+
+  &-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    transition: 0.5s ease;
+
+    &-icon {
+      transition: all 0.2s ease;
+    }
+  }
+
+  &-toShow {
+    margin-bottom: 1rem;
+    line-height: 1.45rem;
+    color: $grayish-blue;
+    position: static;
+    transition: all 0.7s ease;
+  }
+}

@@ -13,5 +13,10 @@ invite_container.addEventListener("click", () => {
   } else {
     invite_title.style.fontWeight = "700";
     iconDown.style.transform = "rotate(180deg)";
+    invite_toShow.classList.add(
+      "animate__animated",
+      "animate__slideInDown",
+      "animate__faster"
+    );
   }
 });
