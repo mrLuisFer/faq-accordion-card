@@ -28,6 +28,11 @@
   <body>
     <div class="main">
       <section class="wrapper">
+        <img
+          alt="illustration-woman-online-mobile"
+          class="wrapper-illustration"
+          src="./src/images/illustration-woman-online-mobile.svg"
+        />
         <h1 class="wrapper-title">FAQ</h1>
         <!-- Separation -->
         <div class="wrapper-container">
@@ -37,10 +42,10 @@
                 How many team members can I invite?
               </p>
               <img
-                class="invite-text-icon"
-                src="./src/images/icon-arrow-down.svg"
                 alt="icon-arrow-down"
+                class="invite-text-icon"
                 id="invite-icon-down"
+                src="./src/images/icon-arrow-down.svg"
               />
             </div>
             <p class="invite-toShow hidde" id="invite-toShow">
@@ -50,60 +55,72 @@
           </article>
           <!-- Separation -->
           <article class="maximum">
-            <div class="maximum-text">
-              <p class="maximum-text-title">
+            <div class="maximum-text" id="maximum-container">
+              <p class="maximum-text-title" id="maximum-title">
                 What is the maximum file upload size?
               </p>
               <img
                 src="./src/images/icon-arrow-down.svg"
                 alt="icon-arrow-down"
+                class="maximum-text-icon"
+                id="maximum-icon-down"
               />
             </div>
-            <p class="maximum-toShow">
+            <p class="maximum-toShow hidde" id="maximum-toShow">
               No more than 2GB. All files in your account must fit your allotted
               storage space.
             </p>
           </article>
           <!-- Separation -->
           <article class="reset">
-            <div class="reset-text">
-              <p class="reset-text-title">How do I reset my password?</p>
+            <div class="reset-text" id="reset-container">
+              <p class="reset-text-title" id="reset-title">
+                How do I reset my password?
+              </p>
               <img
                 src="./src/images/icon-arrow-down.svg"
                 alt="icon-arrow-down"
+                class="reset-text-icon"
+                id="reset-icon-down"
               />
             </div>
-            <p class="reset-toShow">
+            <p class="reset-toShow hidde" id="reset-toShow">
               Click “Forgot password” from the login page or “Change password”
               from your profile page. A reset link will be emailed to you.
             </p>
           </article>
           <!-- Separation -->
           <article class="cancel">
-            <div class="cancel-text">
-              <p class="cancel-text-title">Can I cancel my subscription?</p>
+            <div class="cancel-text" id="cancel-container">
+              <p class="cancel-text-title" id="cancel-title">
+                Can I cancel my subscription?
+              </p>
               <img
                 src="./src/images/icon-arrow-down.svg"
                 alt="icon-arrow-down"
+                class="cancel-text-icon"
+                id="cancel-icon-down"
               />
             </div>
-            <p class="cancel-toShow">
+            <p class="cancel-toShow hidde" id="cancel-toShow">
               Yes! Send us a message and we’ll process your request no questions
               asked.
             </p>
           </article>
           <!-- Separation -->
           <article class="provide">
-            <div class="provide-text">
-              <p class="provide-text-title">
+            <div class="provide-text" id="provide-container">
+              <p class="provide-text-title" id="provide-title">
                 Do you provide additional support?
               </p>
               <img
                 src="./src/images/icon-arrow-down.svg"
                 alt="icon-arrow-down"
+                class="provide-text-icon"
+                id="provide-icon-down"
               />
             </div>
-            <p class="provide-reset">
+            <p class="provide-toShow hidde" id="provide-toShow">
               Chat and email support is available 24/7. Phone lines are open
               during normal business hours.
             </p>
@@ -112,6 +129,7 @@
       </section>
     </div>
     <!-- Javascript Section -->
-    <script src="./src/js/invite.js"></script>
+    <script type="module" src="./src/js/toShowFunction.js"></script>
+    <script type="module" src="./src/js/components.js"></script>
   </body>
 </html>
