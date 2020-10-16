@@ -34,8 +34,6 @@ export default function handleToShow(container, toShow, elemTitle, iconDown) {
   });
 
   window.addEventListener("click", (event) => {
-    console.log(event.target);
-
     if (event.target != container && event.target != elemTitle) {
       toShow.classList.add("hidde");
       elemTitle.style.fontWeight = "400";
