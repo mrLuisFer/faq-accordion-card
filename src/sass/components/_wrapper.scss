@@ -8,23 +8,76 @@
   height: 100%;
   min-height: 500px;
   max-height: 540px;
+  @media screen and (min-width: 1000px) {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 37rem 1fr;
+    padding: 6rem 7rem;
+    padding-right: 10rem;
+    align-items: start;
+    justify-content: space-between;
+    background: #fff;
+  }
+
+  &-main {
+    @media screen and (min-width: 1000px) {
+    }
+  }
+
+  &-pattern {
+    &-desktop {
+      display: none;
+      @media screen and (min-width: 1000px) {
+        display: block;
+        position: absolute;
+        width: 830px;
+        top: -13rem;
+        bottom: 0rem;
+        left: -34rem;
+        height: 63rem;
+      }
+    }
+  }
 
   &-illustration {
-    position: absolute;
-    top: -9rem;
-    right: 0.8rem;
-    left: 0;
-    margin: 0 auto;
-    filter: drop-shadow(0px 25px 0px rgba($dark-grayish, 0.3));
-    transform-origin: 0;
-    transition: 0.9s ease;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    &-mobile {
+      @media screen and (max-width: 999px) {
+        position: absolute;
+        top: -9rem;
+        right: 0.8rem;
+        left: 0;
+        margin: 0 auto;
+      }
+      filter: drop-shadow(0px 25px 0px rgba($dark-grayish, 0.3));
+      transform-origin: 0;
+      // transition: 0.9s ease;
+      // -moz-user-select: none;
+      // -webkit-user-select: none;
+      // -ms-user-select: none;
+      // user-select: none;
 
-    &:active {
-      transform: translateY(8px);
+      &:active {
+        transform: translateY(8px);
+      }
+
+      @media screen and (min-width: 1000px) {
+        display: none;
+      }
+    }
+
+    &-desktop {
+      display: none;
+
+      @media screen and (min-width: 1000px) {
+        display: block;
+        position: relative;
+        left: -13rem;
+        width: 41rem;
+        top: -15px;
+        height: 31rem;
+        -webkit-clip-path: inset(0 0 -30% 14.55%);
+        // filter: drop-shadow(0px 100px 0px rgba($dark-grayish, 0.3));
+      }
     }
   }
 
@@ -32,5 +85,10 @@
     text-align: center;
     font-size: 2.8rem;
     margin-bottom: 2.5rem;
+
+    @media screen and (min-width: 1000px) {
+      text-align: left;
+      font-size: 3rem;
+    }
   }
 }

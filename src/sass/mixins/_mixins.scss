@@ -5,12 +5,19 @@
   position: relative;
   margin-top: 2rem;
 
+  @media screen and (min-width: 1000px) {
+    margin-bottom: 3rem;
+  }
+
   &-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
     transition: 0.5s ease;
+    @media screen and (min-width: 1000px) {
+      font-size: 1.25rem;
+    }
 
     &-title {
       cursor: pointer;
@@ -19,6 +26,10 @@
       -webkit-user-select: none;
       -ms-user-select: none;
       user-select: none;
+
+      @media screen and (min-width: 1000px) {
+        font-size: 1.2rem;
+      }
 
       &:hover {
         transform: translateY(-2px);
@@ -34,8 +45,13 @@
   &-toShow {
     margin-bottom: 1rem;
     line-height: 1.45rem;
-    color: $grayish-blue;
+    color: $dark-grayish;
     position: static;
     transition: all 0.7s ease;
+
+    @media screen and (min-width: 1000px) {
+      font-size: 1.3rem;
+      line-height: 1.3;
+    }
   }
 }
