@@ -14,6 +14,10 @@ Page used for the development of the challenge [Frontend Mentor](https://www.fro
 
 **The challenge**
 
+### Screens 
+- 375px
+- 1440px
+
 This challenge is simple, there are many ways to solve it but this was the way I wanted and I was able to solve it
 
 We recommend that you use the Live Sass and Live Server extension of VsCode to display the HTML and Sass
