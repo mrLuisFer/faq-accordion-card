@@ -25,4 +25,4 @@ We recommend that you use the Live Sass and Live Server extension of VsCode to d
 **💫Where to find me**
 
 - [GitHub](https://github.com/mrLuisFer)
-- [Twitter](https://twitter.com/lolesuncrak)
+- [Twitter](https://twitter.com/_mrluisfer)
