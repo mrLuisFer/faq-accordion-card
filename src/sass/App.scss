@@ -19,9 +19,10 @@ html {
 
 body {
   color: $dark-des-blue;
+  background: $bgGradient;
 }
 
 // Mixins
 @import "./mixins/mixins";
 // Components
-@import "./components/components";
+@import "./components/index";
