@@ -8,12 +8,13 @@ html {
 :root {
   font-size: 12px;
   font-family: $font;
+  transition: var(--transition);
 }
 
 * {
   padding: 0;
   margin: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {

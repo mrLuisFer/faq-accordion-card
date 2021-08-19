@@ -1,9 +1,10 @@
 @mixin TextMenu {
   border-bottom: 0.5px solid rgba($dark-grayish, 0.5);
-  margin-bottom: 1.2rem;
   display: block;
   position: relative;
-  margin-top: 2rem;
+  width: 100%;
+  margin: 2rem auto 0;
+  max-width: 500px;
 
   @media screen and (min-width: 1000px) {
     margin-bottom: 3rem;
